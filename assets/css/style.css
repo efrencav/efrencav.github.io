@@ -549,7 +549,7 @@ a img.aligncenter {
     overflow: hidden;
     position: relative;
     background-position: center center;
-    vertical-align: sub;
+    /* vertical-align: sub; */
     width: 100%;
     z-index: 2;
 }
@@ -1601,7 +1601,7 @@ a:focus {
 .loader {
     display: block;
     margin: 20px auto 0;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 #preloader {
     width: 100%;
