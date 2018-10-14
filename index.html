@@ -1,64 +1,121 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Efren Cavazos - About Me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Efren Cavazos</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+
+    <script src="./assets/js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-<div class="nav-wrapper">
-    <nav class="nav-normal">
-        <div class="logo">
-            <p>Efren Cavazos</p> 
-        </div>
-        <!-- navigation -->                    
-        <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="index.html">About Me</a></li>
-        </ul>
-    </nav>
-</div>
-<!-- section starts -->
-<section class="content-wrapper">
-    <header>
-        <h1 class="teal">About Me</h1>
-        <!-- line -->
-        <hr class="bg-teal">
-    </header>
-    <div id="leftColumn">
-            <!-- photo -->
-            <img class="profileImage" src="assets/images/efren.jpg" alt="Efren Cavazos">
-    </div>
-    <div id="rightColumn">   
-        <p>Over 17 years of professional experience in Graphic Design, exposed to most of the creative disciplines and information that a substantial designer 
-            must master. The knowledge that I have gained has prepared me to be a rigorous thinker, a good problem solver whose strong design skills are the 
-            most critical aspect of Visual Communications. The sum of my past work and education has prepared me for both the fast-paced and the creative environment 
-            that I believe is necessary for a successful career in graphic design.
-            <br>
-            <a href="https://www.linkedin.com/in/efrencavazos/">link here</a>
-            <br>
-        </p>
-        <p>A partial list of clients include:
-            <ul>
-                <li>Direct Buy</li>
-                <li>Federal Reserve Bank of Chicago</li>
-                <li>Healthcare providers in the Texas Medical Center</li>
-                <li>Houston Zoological Gardens</li>
-                <li>Lowe's Home Improvement Stores</li>
-                <li>The City of New Orleans - French Quarter District</li>
-                <li>The Fountain of Praise Church</li>
-                <li>The Home Depot Home Improvement Stores</li>
-                <li>The Houston Community College System</li>
-            </ul>
-        </p>
-    </div>     
-</section>
-        <!-- footer starts -->
-        <footer class="text-white"><p>Copyright &copy;2018</p></footer>
+<body> 
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <img class="preloader" src="./assets/images/loader.gif" alt="">
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <div id="wrapper">
+        <header class="header">
+            <div class="container-fluid">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Efren Cavazos</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <!-- <li><a href="services.html">Services</a></li> -->
+                            <li><a href="portfolio.html">Works</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li class="social-link firstlink"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-link"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="social-link"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </nav><!-- end navbar -->
+            </div><!-- end container -->
+        </header><!-- end header -->
+        
+        <div class="section background-lines">
+            <div class="container intro vertical-align-middle">
+                <div class="row intro wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="col-md-8 col-sm-12 margin-100px-right padding-80px-bottom">
+                        <h4 class="text-dark-gray"><em><script src="./assets/js/custom.js"></script></em></h4>
+                        <h1 class="text-white">My name is <strong class="text-gold">Efren Cavazos</strong>, and I'm a
+                        <strong class="text-gold">Full-stack Web Developer</strong> &#38; Award-Winning <strong class="text-gold">Art Director</strong>.</h1>
+                        <p>The sum of my past work and education has prepared me for both the fast-paced and environment that I believe is necessary for a successful career in web applications. </p>
+
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div> <!-- end container -->
+        </div> <!-- end section-->
+            
+        
+
+        
+        <div class="copyrights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>&copy; Efren Cavazos. All rights reserved 2018</p>
+                    </div><!-- end col -->
+
+                    <div class="col-md-6 text-right">
+                        <ul class="list-inline">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <!-- <li><a href="services.html">Services</a></li> -->
+                            <li><a href="portfolio.html">Works</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li class="dmtop"><a href="#"><i class="fa fa-angle-up"></i></a></li>
+                        </ul>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end copyrights -->
+    </div><!-- end wrapper -->
+
+    <!-- ALL JS FILES -->
+    <script src="./assets/js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <!-- <script src="./assets/js/custom.js"></script>  -->
+    <script src="./assets/js/portfolio.js"></script>
+    <script src="./assets/js/hoverdir.js"></script>  
+
 </body>
 </html>
-
-
