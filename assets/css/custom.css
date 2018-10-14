@@ -123,6 +123,31 @@ h6 {font-size:25px; line-height:30px}
 .bg-charcoal-gray{background-color: #2a2a2e;}
 
 /* ===================================
+    Stroke colors
+    
+====================================== */
+.hr-white {
+  width: 40px;
+  border-width: 3px;
+  border-color: #ffffff;
+  margin: 15px 0;
+}
+
+.hr-black {
+  width: 40px;
+  border-width: 3px;
+  border-color: #000000;
+  margin: 15px 0;
+}
+
+.hr-gold {
+  width: 40px;
+  border-width: 3px;
+  border-color: #b09a68;
+  margin: 15px 0;
+}
+
+/* ===================================
     Background image
 ====================================== */
 
