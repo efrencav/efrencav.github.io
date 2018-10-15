@@ -24,7 +24,7 @@ h6 {font-size:25px; line-height:30px}
 /* text color */
 .text-white {color:#FFF}
 .text-medium-white {color:#FFF}
-.text-black {color:#000}
+.text-black {color:#000 !important}
 .text-extra-dark-gray {color:#232323}
 .text-dark-gray {color:#626262}
 .text-extra-medium-gray {color:#757575}
@@ -788,3 +788,27 @@ h6 {font-size:25px; line-height:30px}
     border: 2px solid #92683C
   }
 
+hr {width: 100px;
+    border-width: 3px;
+    border-color: #1f1f1f;
+    margin: 15px 0;
+}
+
+.border-gold {border-color: #b09a68;
+}
+
+.message-box-experience {
+  position: relative;
+  z-index: 1;
+  padding: 10px 0px;
+}
+.message-box-experience h2 {
+  font-size: 54px;
+  font-weight: 900;
+}
+
+.message-box-experience .lead {
+  font-size: 21px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
