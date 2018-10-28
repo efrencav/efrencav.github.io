@@ -18,3 +18,5 @@ if (hourNow > 18) {
 document.write(greeting);
 
 // console.log(greeting);
+
+
