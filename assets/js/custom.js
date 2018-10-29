@@ -20,17 +20,3 @@ console.log(greeting);
 
 // console.log(greeting);
 
-/*==============================================================
-     counter
-     ==============================================================*/
-    //  $(function ($) {
-    //     animatecounters();
-    // });
-    // function animatecounters() {
-    //     $('.timer').each(count);
-    //     function count(options) {
-    //         var $this = $(this);
-    //         options = $.extend({}, options || {}, $this.data('countToOptions') || {});
-    //         $this.countTo(options);
-    //     }
-    // }
