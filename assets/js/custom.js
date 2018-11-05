@@ -3,7 +3,7 @@
 -------------------------------------------------------------------*/
 var today = new Date();
 var hourNow = today.getHours();
-var greeting;
+var greeting = document.getElementById("greeting");
 
 if (hourNow > 18) {
     greeting = 'Good evening! ';
@@ -15,8 +15,8 @@ if (hourNow > 18) {
     greeting = 'Hola! ';
 }
 
-document.write(greeting);
+console.log(greeting);
+// document.write(greeting);
 
 // console.log(greeting);
-
 
