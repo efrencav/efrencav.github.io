@@ -1260,6 +1260,10 @@ hr.invis {
     z-index: 0;
 }
 
+.aboutme {
+    background-image: url("./assets/uploads/efren-cavazos2.png");
+}
+
 .aboutimage {
     position: absolute;
     left: 0;
@@ -1569,6 +1573,9 @@ a:focus {
 }
 
 @media (max-width: 768px) {
+    .aboutimage {
+        display: none;
+    }
     .text-widget {
         margin: 30px 0;
         display: block;
@@ -1583,6 +1590,9 @@ a:focus {
 }
 
 @media (max-width: 468px) {
+    .aboutimage {
+        display: none;
+    }
     .portfolio-filter {
         text-align: center;
     }
@@ -1694,3 +1704,47 @@ a:focus {
 }
 
 
+.projects{}
+.project{float: left; width: 25%;}
+.project a{display: block; text-decoration: none; position: relative; color: #fff; overflow: hidden;}
+.project a figure{position: relative; margin: 0;}
+.project a figure img{width: 100%;-webkit-filter: grayscale(100%); filter: grayscale(100%);
+transition: all 0.3s ease-out;
+}
+.project a:hover figure img{-webkit-filter: grayscale(0); filter: grayscale(0);}
+.project a .txt1{font-family: 'Oswald'; font-size: 25px;text-transform: uppercase; position: absolute; left: 10%; right: 10px; top: 5%; letter-spacing: 0.05em;
+transition: all 0.3s ease-out;
+}
+.project a:hover .txt1{opacity: 0; margin-top: -100px;}
+.project a .txt2{position: absolute; left: 17px; top: -50px; font-family: 'Oswald'; font-size: 14px; text-transform: uppercase; letter-spacing: 0.6em;
+-webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+-webkit-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+}
+.project a .caption{position: absolute; left: 10%; right: 10px; bottom: 5%;
+transition: all 0.3s ease-out;
+}
+.project a:hover .caption{opacity: 0; margin-bottom: -100%;}
+.project a .txt3{font-size: 14px;}
+.project a .txt4{font-size: 14px; font-weight: 600; text-transform: uppercase; padding-top: 40px;}
+.project a .over1{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(17, 17, 17, 0.7);
+transition: all 0.3s ease-out;
+}
+.project a:hover .over1{opacity: 0;
+
+  -ms-transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+}
+.project a .over2{position: absolute; left: 50%; top: 50%; margin-left: -70px; margin-top: -70px; width: 140px; height: 140px; background: rgba(152, 115, 73, 0.84); border-radius: 50%; text-align: center; line-height: 140px; color: #fff; font-size: 40px; opacity: 0;
+transition: all 0.3s ease-out;
+-ms-transform: scale(0.01);
+    -webkit-transform: scale(0.01);
+    transform: scale(0.01);
+}
+.project a:hover .over2{opacity: 1;
+-ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
