@@ -957,6 +957,21 @@ transition: all 0.3s ease-out;
   .project a .txt2{display: none;}
 
 
-
-
 }
+
+.border-top {border-top: 1px solid;}
+.border-width-1 {border-width:1px;}
+.no-padding {padding:0 !important}
+.display-table {display:table !important}
+.width-45 {width:45%;}
+.display-table-cell {display:table-cell !important}
+.vertical-align-middle {vertical-align: middle;}
+
+/* blog and portfolio next pagination */
+.blog-nav-link {padding: 30px 0; display: inline-block; vertical-align: middle; font-size: 16px; position: relative}
+.blog-nav-link-prev .blog-nav-icon, .blog-nav-link-next .blog-nav-icon {top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); position: absolute}
+.blog-nav-link-next {padding-right: 50px}
+.blog-nav-link-next .blog-nav-icon{ right: 0}
+.blog-nav-link-prev {padding-left: 50px}
+.blog-nav-link-prev .blog-nav-icon {left: 0}
+.display-block {display:block !important}

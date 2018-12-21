@@ -1251,6 +1251,13 @@ hr.invis {
     width: 1000px;
     z-index: 0;
 }
+.bookright {
+    position: absolute;
+    right: -5%;
+    bottom: -3%;
+    width: 1000px;
+    z-index: 0;
+}
 
 .imageright {
     position: absolute;
